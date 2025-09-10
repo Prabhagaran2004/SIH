@@ -20,7 +20,7 @@ import {
   getStressLevelText,
 } from "./utils";
 
-const MentalHealthApp: React.FC = () => {
+const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<PageType>("home");
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputMessage, setInputMessage] = useState("");
@@ -176,4 +176,4 @@ const MentalHealthApp: React.FC = () => {
   );
 };
 
-export default MentalHealthApp;
+export default App;

@@ -41,7 +41,7 @@ export const analyzeStressLevel = (message: string): number => {
 };
 
 export const getAIResponse = (
-  userMessage: string,
+  _userMessage: string,
   stressLevel: number
 ): string => {
   const responses = {

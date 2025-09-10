@@ -55,7 +55,7 @@ const VideosPage: React.FC = () => {
         {videos.map((video, index) => (
           <div
             key={index}
-            className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 shadow-2xl group cursor-pointer"
+            className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 shadow-2xl group cursor-pointer"
           >
             <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">
               {video.thumbnail}
@@ -68,7 +68,7 @@ const VideosPage: React.FC = () => {
               <span className="text-emerald-200 text-sm">{video.duration}</span>
             </div>
             <div className="w-full bg-white/10 rounded-full h-1 mb-4">
-              <div className="bg-teal-400 h-1 rounded-full w-0 group-hover:w-full transition-all duration-1000"></div>
+              <div className="bg-teal-400 h-1 rounded-full w-0 group-hover:w-full transition-all duration-700"></div>
             </div>
             <button className="w-full bg-teal-500/80 hover:bg-teal-600/80 text-white py-2 rounded-xl transition-colors">
               Play Video

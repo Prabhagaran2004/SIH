@@ -43,7 +43,7 @@ const HomePage: React.FC<HomePageProps> = ({
       </div>
 
       {/* Current Stress Level Card */}
-      <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 shadow-2xl">
+      <div className="bg-white/3 backdrop-blur-lg rounded-3xl p-6 border border-white/20 shadow-2xl">
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-xl font-semibold text-white mb-2">
@@ -76,7 +76,7 @@ const HomePage: React.FC<HomePageProps> = ({
       <div className="grid md:grid-cols-3 gap-6">
         <button
           onClick={() => handleNavigation("chat")}
-          className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 shadow-2xl group"
+          className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 shadow-2xl group"
         >
           <MessageCircle className="w-12 h-12 text-teal-300 mb-4 group-hover:scale-110 transition-transform" />
           <h3 className="text-xl font-semibold text-white mb-2">
@@ -90,7 +90,7 @@ const HomePage: React.FC<HomePageProps> = ({
 
         <button
           onClick={() => handleNavigation("videos")}
-          className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 shadow-2xl group"
+          className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 shadow-2xl group"
         >
           <Video className="w-12 h-12 text-sage-300 mb-4 group-hover:scale-110 transition-transform" />
           <h3 className="text-xl font-semibold text-white mb-2">
@@ -104,7 +104,7 @@ const HomePage: React.FC<HomePageProps> = ({
 
         <button
           onClick={() => handleNavigation("games")}
-          className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 shadow-2xl group"
+          className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 shadow-2xl group"
         >
           <Gamepad2 className="w-12 h-12 text-emerald-300 mb-4 group-hover:scale-110 transition-transform" />
           <h3 className="text-xl font-semibold text-white mb-2">

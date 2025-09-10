@@ -57,7 +57,7 @@ const GamesPage: React.FC = () => {
         {games.map((game, index) => (
           <div
             key={index}
-            className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 shadow-2xl group cursor-pointer"
+            className="bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 shadow-2xl group cursor-pointer"
           >
             <div className="text-center">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
